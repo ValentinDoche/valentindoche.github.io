@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'BankGothic';
+    src: url('../fonts/BankGothicBold.woff2') format('woff2'),
+    url('../fonts/BankGothicBold.woff') format('woff'),
+    url('../fonts/BankGothicBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    margin: unset;
+}
+#root{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url("../img/background.png") no-repeat;
+    background-size: contain;
+}
+
+#countdown {
+    margin: unset;
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 150px;
+    font-family: 'BankGothic', serif;
+    text-shadow: 0 0 25px #8629dc, 0 0 50px #8629dc;
+    width: 100%;
+    text-align: center;
+}
